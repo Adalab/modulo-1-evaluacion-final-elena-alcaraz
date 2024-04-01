@@ -1,6 +1,45 @@
 main {
     font-family: var(--brand-font);
 }
+
+.lookingthrough {
+    display: block;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+
+    &__h5 {
+        color: var(--azulclaro);
+        font-size: 16px;
+    }
+
+    &__title {
+        font-family: var(--title-font);
+        font-size: 30px;
+        padding-top: 10px;
+    }
+
+    &__text {
+        opacity: 60%;
+        font-size: 18px;
+        line-height: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    &__button {
+        width: 80px;
+        font-family: var(--brand-font);
+        font-size: 20px;
+        color: var(--naranja);
+        background-color: white;
+        padding: 10px;
+        border-color: var(--naranja);
+        border-radius: 50px;
+    }
+}
+
 .purchase {
     background-color: var(--iceblue);
 }
