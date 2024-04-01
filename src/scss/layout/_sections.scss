@@ -9,6 +9,12 @@ main {
     padding-right: 20px;
     padding-bottom: 40px;
 
+    @media screen and (width> 767px) {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 50px;
+    }
+
     &__h5 {
         color: var(--azulclaro);
         font-size: 16px;
@@ -38,6 +44,11 @@ main {
         border-color: var(--naranja);
         border-radius: 50px;
     }
+
+    &__button:hover {
+        background-color: rgb(247, 222, 222);
+    }
+
 }
 
 .purchase {
@@ -50,6 +61,10 @@ main {
         font-size: 25px;
         text-align: center;
         padding-top: 20px;
+
+        @media screen and (width> 767px) {
+            font-size: 30px;
+        }
     }
 
     &__list {
@@ -63,15 +78,32 @@ main {
         padding-left: 80px;
         padding-right: 80px;
 
+        @media screen and (width> 767px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: auto;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+    
+
         &--title {
             font-family: var(--title-font);
             font-size: 18px;
+
+            @media screen and (width> 767px) {
+                font-size: 21px;
+            }
         }
 
         &--text {
             font-size: 18px;
             line-height: 1.8;
             padding-top: 5px;
+
+            @media screen and (width> 767px) {
+                font-size: 15px;
+            }
         }
     }
 
@@ -80,6 +112,10 @@ main {
         align-items: center;
         justify-content: center;
         padding-bottom: 60px;
+
+        @media screen and (width> 767px) {
+            padding-top: 25px;
+        }
 
         &--more {
             background-color: var(--naranja);
