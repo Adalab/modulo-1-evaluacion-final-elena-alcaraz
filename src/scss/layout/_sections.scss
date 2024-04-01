@@ -76,20 +76,20 @@ main {
     }
 
     &__button {
-        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
-        padding-bottom: 40px;
+        padding-bottom: 60px;
 
         &--more {
             background-color: var(--naranja);
+            width: 200px;
+            border-radius: 100px;
             color: white;
             font-size: 20px;
-            padding-left: 20px;
-            padding-right: 20px;
             padding-top: 10px;
             padding-bottom: 10px;
+            border: 0px;
         }
     }
 

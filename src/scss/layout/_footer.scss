@@ -6,3 +6,47 @@
     flex-direction: column;
     align-items: center;
 }
+
+.startscrollicon {
+    background-color: white;
+    padding: 12px;
+    border-radius: 50%;
+    transform: translate(0, -25px);
+}
+
+.navfooter {
+    padding-top: 40px;
+    
+    &__list {
+        list-style: none;
+        line-height: 30px;
+        text-align: center;
+        
+        &--link {
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+
+.navrrss {
+    padding-top: 40px;
+
+    &__list {
+        list-style: none;
+        line-height: 30px;
+        text-align: center;
+        
+        &--link {
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+
+.license {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    line-height: 40px;
+}
