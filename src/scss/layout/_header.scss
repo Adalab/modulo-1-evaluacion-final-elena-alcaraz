@@ -1,6 +1,46 @@
+.header {
+    background-image: url("/images/cover.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: var(--brand-font);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    height: 100vh;
+}
+
 .hamburgermenu {
     background-color: var(--azul);
     padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
+.headertext {
+    padding-bottom: 70px;
+
+        &__h1 {
+            font-family: var(--title-font);
+            font-size: 50px;
+            text-align: center;
+            font-weight: 500;
+
+            &-p1 {
+                text-align: center;
+                padding: 10px;
+                /* font-weight: 100; ESTO NO ME HACE CASO */
+            }
+        }
+}
+
+.scrolldownicon {
+    background-color: white;
+    padding: 15px;
+    border-radius: 60%;
+    margin-bottom: 50px;
+}
 
