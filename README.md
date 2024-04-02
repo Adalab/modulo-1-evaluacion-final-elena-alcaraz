@@ -1,8 +1,6 @@
-![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
-
 # Evaluación final Módulo 1 - Elena Alcaraz Martín
 
-Este es el repositorio creado y para la **evaluación final del Módulo 1**. 
+Este es el repositorio creado para la **evaluación final del Módulo 1**. 
 
 Se ha trabajado a partir del template facilitado por Adalab, y organizado a través de partials de html y scss. 
 
